@@ -13,7 +13,7 @@ assert secret == encrypt(pad, enc)
 print("Decrypted: ",secret)"""
 import onetimepad
 
-cipher = onetimepad.encrypt('One Time Cipher', 'random')
+cipher = onetimepad.encrypt('OmorSourov', 'random')
 print("Cipher text is ")
 print(cipher)
 print("Plain text is ")
