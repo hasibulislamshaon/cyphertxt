@@ -9,7 +9,7 @@ ciphertext = ''
 for index in sorted(order.keys()):
    for part in split_len(plaintext, len(key)):
       try:ciphertext += part[order[index]]
-         except IndexError:
+      except IndexError:
             continue
    return ciphertext
 print(encode('3214', 'HELLO'))
